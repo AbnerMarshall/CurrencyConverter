@@ -1,0 +1,45 @@
+body {
+    background-color:black;
+    height:100vh;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+#mainBox {
+    height:100vh;
+    display: flex;
+}
+
+h1 {
+    margin:auto;
+    text-align: center;
+}
+
+#subBox {
+    display: flex;
+    margin: auto;
+    width: 850px;
+    height: 200px;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text], input[type=number], select {
+
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#amount {background-color: white;}
+#Currency1 {background-color:white;}
+#Currency2 {background-color:white;}
+#value {
+    background-color: #a3c9ad;
+    color: #033b03;}

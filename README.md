@@ -46,9 +46,7 @@ You should have a modern web browser installed that supports HTML5, CSS, and Jav
 
 ## Contact
 
-Please replace with your contact details:
-
-- Your Name - AbnerMarshall@outlook.com
+AbnerMarshall@outlook.com
 
 ## Acknowledgements
 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="Jscript/myscript.js"></script>
+</head>
+<body>
+<div id="mainBox">
+    <div id="subBox">
+        <form>
+            <h1>Currency Converter</h1>
+            <table>
+
+                <tr>
+                    <th>Currency on hand</th>
+                    <th>Amount</th>
+                    <th>Convert to:</th>
+                    <th>Conversion Value</th>
+                </tr>
+                <tr>
+                    <td><select id="Currency1" onchange="priceChange()">
+                        <option> --Choose Currency --</option>
+                        <option> Euro</option>
+                        <option> US Dollar</option>
+                        <option> Canadian Dollar</option>
+                        <option> BitCoin Digital Currency</option>
+                        <option> Etherium Digital Currency</option>
+                    </select></td>
+
+                    <td><input type="number" id="amount" name="amount" min="0" max="9999999999" value=""
+                               onchange="priceChange()" required></td>
+
+                    <td><select id="Currency2" onchange="priceChange()">
+                        <option> --Choose Currency --</option>
+                        <option> Euro</option>
+                        <option> US Dollar</option>
+                        <option> Canadian Dollar</option>
+                        <option> BitCoin Digital Currency</option>
+                        <option> Etherium Digital Currency</option>
+                    </select></td>
+                    <td>
+                        <input type="text" id="value" size="30" disabled></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>
